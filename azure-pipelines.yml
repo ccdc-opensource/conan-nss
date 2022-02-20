@@ -1,0 +1,14 @@
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      name: ccdc-opensource/conan-azure-devops
+      ref: refs/heads/development
+      endpoint: github
+
+extends:
+  template: third-party-library-all-platforms-from-local-recipe.yml@templates
+  parameters:
+    package: nss
+    package_version: 3.72
+    destination_repository: ccdc-3rdparty-conan
