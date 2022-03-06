@@ -10,5 +10,5 @@ extends:
   template: third-party-library-all-platforms-from-local-recipe.yml@templates
   parameters:
     package: nss
-    package_version: 3.72
+    package_version: 3.76
     destination_repository: ccdc-3rdparty-conan
